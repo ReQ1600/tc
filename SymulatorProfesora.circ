@@ -26,6 +26,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   <lib desc="file#ROM_message_spitter.circ" name="9"/>
   <lib desc="file#student_drop.circ" name="10"/>
   <lib desc="file#student_catcher.circ" name="11"/>
+  <lib desc="file#comparator_score_thresholds.circ" name="12"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -116,6 +117,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1450,390)" to="(1450,610)"/>
     <wire from="(1020,660)" to="(1080,660)"/>
     <wire from="(1220,670)" to="(1510,670)"/>
+    <wire from="(660,140)" to="(720,140)"/>
     <wire from="(1140,870)" to="(1140,900)"/>
     <wire from="(1680,1010)" to="(1730,1010)"/>
     <wire from="(1500,390)" to="(1500,660)"/>
@@ -142,12 +144,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1520,960)" to="(1520,1060)"/>
     <wire from="(1060,580)" to="(1060,680)"/>
     <wire from="(1080,520)" to="(1100,520)"/>
+    <wire from="(720,90)" to="(730,90)"/>
     <wire from="(1760,960)" to="(1760,1060)"/>
     <wire from="(1400,390)" to="(1400,560)"/>
     <wire from="(1020,560)" to="(1070,560)"/>
     <wire from="(1650,1040)" to="(1690,1040)"/>
     <wire from="(1520,900)" to="(1520,920)"/>
-    <wire from="(670,50)" to="(720,50)"/>
     <wire from="(1020,800)" to="(1020,810)"/>
     <wire from="(1020,560)" to="(1020,570)"/>
     <wire from="(1020,400)" to="(1020,410)"/>
@@ -160,18 +162,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(630,760)" to="(630,830)"/>
     <wire from="(310,730)" to="(310,740)"/>
     <wire from="(1760,900)" to="(1760,920)"/>
-    <wire from="(810,30)" to="(810,60)"/>
     <wire from="(1680,1060)" to="(1680,1070)"/>
+    <wire from="(770,80)" to="(810,80)"/>
     <wire from="(1220,630)" to="(1470,630)"/>
     <wire from="(1300,390)" to="(1300,460)"/>
     <wire from="(1220,500)" to="(1340,500)"/>
     <wire from="(1110,810)" to="(1110,820)"/>
-    <wire from="(700,140)" to="(870,140)"/>
     <wire from="(600,780)" to="(600,800)"/>
     <wire from="(1220,460)" to="(1300,460)"/>
     <wire from="(1090,510)" to="(1100,510)"/>
     <wire from="(710,430)" to="(740,430)"/>
-    <wire from="(810,60)" to="(810,160)"/>
     <wire from="(1720,940)" to="(1720,990)"/>
     <wire from="(1020,810)" to="(1110,810)"/>
     <wire from="(1630,950)" to="(1710,950)"/>
@@ -191,6 +191,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1020,410)" to="(1160,410)"/>
     <wire from="(1530,390)" to="(1530,690)"/>
     <wire from="(1220,590)" to="(1430,590)"/>
+    <wire from="(810,30)" to="(810,80)"/>
     <wire from="(1770,940)" to="(1770,1040)"/>
     <wire from="(620,760)" to="(630,760)"/>
     <wire from="(1630,1070)" to="(1670,1070)"/>
@@ -249,6 +250,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(510,870)" to="(510,900)"/>
     <wire from="(1720,1020)" to="(1720,1150)"/>
     <wire from="(1070,550)" to="(1070,560)"/>
+    <wire from="(810,80)" to="(810,160)"/>
     <wire from="(870,60)" to="(870,140)"/>
     <wire from="(430,800)" to="(470,800)"/>
     <wire from="(1410,390)" to="(1410,570)"/>
@@ -265,7 +267,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(990,410)" to="(1020,410)"/>
     <wire from="(1460,390)" to="(1460,620)"/>
     <wire from="(460,780)" to="(470,780)"/>
-    <wire from="(630,140)" to="(700,140)"/>
     <wire from="(1620,1000)" to="(1620,1170)"/>
     <wire from="(1220,470)" to="(1310,470)"/>
     <wire from="(160,720)" to="(170,720)"/>
@@ -318,6 +319,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1060,380)" to="(1060,480)"/>
     <wire from="(1080,560)" to="(1080,660)"/>
     <wire from="(1020,260)" to="(1090,260)"/>
+    <wire from="(720,90)" to="(720,140)"/>
     <wire from="(1040,680)" to="(1060,680)"/>
     <wire from="(1080,560)" to="(1100,560)"/>
     <wire from="(1640,960)" to="(1640,1060)"/>
@@ -331,7 +333,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(880,530)" to="(940,530)"/>
     <wire from="(1850,1010)" to="(1850,1160)"/>
     <wire from="(1830,990)" to="(1830,1140)"/>
-    <wire from="(700,70)" to="(700,140)"/>
     <wire from="(1610,1010)" to="(1610,1160)"/>
     <wire from="(1590,990)" to="(1590,1140)"/>
     <wire from="(1220,480)" to="(1320,480)"/>
@@ -343,12 +344,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1130,540)" to="(1190,540)"/>
     <wire from="(900,80)" to="(900,100)"/>
     <wire from="(1140,900)" to="(1220,900)"/>
+    <wire from="(720,140)" to="(870,140)"/>
     <wire from="(430,750)" to="(460,750)"/>
     <wire from="(600,850)" to="(620,850)"/>
-    <wire from="(700,70)" to="(720,70)"/>
+    <wire from="(710,80)" to="(730,80)"/>
     <wire from="(1510,950)" to="(1590,950)"/>
     <wire from="(710,230)" to="(740,230)"/>
-    <wire from="(780,60)" to="(810,60)"/>
     <wire from="(710,630)" to="(740,630)"/>
     <wire from="(1750,950)" to="(1830,950)"/>
     <wire from="(1600,940)" to="(1600,990)"/>
@@ -396,6 +397,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1040,380)" to="(1060,380)"/>
     <wire from="(500,790)" to="(530,790)"/>
     <wire from="(1470,390)" to="(1470,630)"/>
+    <wire from="(700,30)" to="(730,30)"/>
     <wire from="(1420,390)" to="(1420,580)"/>
     <wire from="(1020,510)" to="(1050,510)"/>
     <wire from="(710,530)" to="(710,630)"/>
@@ -406,155 +408,40 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1220,660)" to="(1500,660)"/>
     <wire from="(1040,780)" to="(1060,780)"/>
     <wire from="(1220,400)" to="(1240,400)"/>
-    <comp lib="6" loc="(726,221)" name="Text">
-      <a name="text" val="A6"/>
-    </comp>
-    <comp lib="1" loc="(500,790)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="11" loc="(1040,780)" name="main"/>
-    <comp lib="6" loc="(623,120)" name="Text">
-      <a name="text" val="Zegar:szybko"/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="10" loc="(1000,360)" name="main"/>
-    <comp lib="10" loc="(1000,560)" name="main"/>
-    <comp lib="0" loc="(180,740)" name="Power">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(670,50)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="4" loc="(880,230)" name="ROM">
-      <a name="addrWidth" val="5"/>
-      <a name="dataWidth" val="32"/>
-      <a name="contents">addr/data: 5 32
-0 50000000 e0000000 50000000
-</a>
-    </comp>
-    <comp lib="10" loc="(1000,460)" name="main"/>
-    <comp lib="6" loc="(727,421)" name="Text">
-      <a name="text" val="A4"/>
-    </comp>
-    <comp lib="4" loc="(620,760)" name="Register">
-      <a name="width" val="5"/>
-    </comp>
-    <comp lib="7" loc="(780,60)" name="main"/>
-    <comp lib="11" loc="(1040,680)" name="main"/>
-    <comp lib="6" loc="(1406,1107)" name="Text">
-      <a name="text" val="Liczba uwalonych studentow:"/>
-      <a name="font" val="SansSerif plain 20"/>
-    </comp>
-    <comp lib="6" loc="(411,724)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="11" loc="(1040,580)" name="main"/>
-    <comp lib="0" loc="(900,100)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(727,523)" name="Text">
-      <a name="text" val="A3"/>
-    </comp>
-    <comp lib="0" loc="(930,490)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="send"/>
-    </comp>
-    <comp lib="6" loc="(800,896)" name="Text">
-      <a name="text" val="profesor"/>
-    </comp>
-    <comp lib="10" loc="(1000,660)" name="main"/>
-    <comp lib="0" loc="(1260,910)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x2"/>
-    </comp>
-    <comp lib="1" loc="(1140,870)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="6"/>
-    </comp>
-    <comp lib="4" loc="(870,840)" name="ROM">
-      <a name="addrWidth" val="5"/>
-      <a name="dataWidth" val="32"/>
-      <a name="contents">addr/data: 5 32
-27*0 4 7 e 7 4
-</a>
-    </comp>
-    <comp lib="3" loc="(430,750)" name="Comparator">
-      <a name="width" val="7"/>
-      <a name="mode" val="unsigned"/>
-    </comp>
-    <comp lib="0" loc="(380,810)" name="Constant">
-      <a name="width" val="7"/>
-      <a name="value" val="0x61"/>
-    </comp>
-    <comp lib="5" loc="(1790,1070)" name="7-Segment Display"/>
-    <comp lib="6" loc="(240,693)" name="Text">
-      <a name="text" val="keyboard"/>
-    </comp>
-    <comp lib="6" loc="(727,723)" name="Text">
-      <a name="text" val="A1"/>
-    </comp>
-    <comp lib="11" loc="(1040,380)" name="main"/>
-    <comp lib="11" loc="(1040,280)" name="main"/>
-    <comp lib="5" loc="(170,720)" name="Keyboard">
-      <a name="buflen" val="1"/>
-    </comp>
     <comp lib="0" loc="(1760,920)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
     </comp>
-    <comp lib="3" loc="(680,840)" name="Adder">
-      <a name="width" val="5"/>
+    <comp lib="4" loc="(880,430)" name="ROM">
+      <a name="addrWidth" val="5"/>
+      <a name="dataWidth" val="32"/>
+      <a name="contents">addr/data: 5 32
+12*0 50000000 e0000000 50000000
+</a>
     </comp>
-    <comp lib="0" loc="(930,690)" name="Pin">
+    <comp lib="10" loc="(1000,660)" name="main"/>
+    <comp lib="10" loc="(1000,760)" name="main"/>
+    <comp lib="0" loc="(930,790)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="send"/>
     </comp>
-    <comp lib="5" loc="(1670,1070)" name="7-Segment Display"/>
-    <comp lib="4" loc="(1240,870)" name="Counter">
-      <a name="width" val="10"/>
-      <a name="max" val="0x3ff"/>
-      <a name="ongoal" val="stay"/>
+    <comp lib="6" loc="(727,421)" name="Text">
+      <a name="text" val="A4"/>
+    </comp>
+    <comp lib="0" loc="(930,490)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="send"/>
     </comp>
     <comp lib="8" loc="(1220,390)" name="main"/>
-    <comp lib="0" loc="(1640,920)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
+    <comp lib="11" loc="(1040,280)" name="main"/>
+    <comp lib="6" loc="(649,124)" name="Text">
+      <a name="text" val="Zegar:szybko"/>
+      <a name="font" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="10" loc="(1000,760)" name="main"/>
-    <comp lib="0" loc="(510,930)" name="Clock">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="10" loc="(1000,260)" name="main"/>
-    <comp lib="3" loc="(1310,880)" name="Divider">
-      <a name="width" val="10"/>
-    </comp>
-    <comp lib="5" loc="(990,40)" name="TTY">
-      <a name="rows" val="1"/>
-      <a name="cols" val="110"/>
-    </comp>
-    <comp lib="1" loc="(1130,540)" name="OR Gate">
-      <a name="width" val="32"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="7"/>
-    </comp>
-    <comp lib="3" loc="(430,800)" name="Comparator">
-      <a name="width" val="7"/>
-      <a name="mode" val="unsigned"/>
-    </comp>
-    <comp lib="0" loc="(930,390)" name="Pin">
+    <comp lib="0" loc="(930,590)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="send"/>
-    </comp>
-    <comp lib="4" loc="(530,850)" name="Counter">
-      <a name="width" val="5"/>
-      <a name="max" val="0x1f"/>
-    </comp>
-    <comp lib="6" loc="(409,833)" name="Text">
-      <a name="text" val="d"/>
     </comp>
     <comp lib="4" loc="(1480,880)" name="ROM">
       <a name="addrWidth" val="10"/>
@@ -687,61 +574,6 @@ f7fe66 f7feb6 f7febf f7fee0 f7fefe f7fef7 f7f7fc f7f760
 f7f7da f7f7f2 f7f766 f7f7b6 f7f7bf f7f7e0 f7f7fe f7f7f7
 </a>
     </comp>
-    <comp lib="0" loc="(630,140)" name="Clock"/>
-    <comp lib="0" loc="(930,290)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="send"/>
-    </comp>
-    <comp lib="4" loc="(880,330)" name="ROM">
-      <a name="addrWidth" val="5"/>
-      <a name="dataWidth" val="32"/>
-      <a name="contents">addr/data: 5 32
-6*0 50000000 e0000000 50000000
-</a>
-    </comp>
-    <comp lib="0" loc="(1520,920)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-    </comp>
-    <comp lib="4" loc="(880,730)" name="ROM">
-      <a name="addrWidth" val="5"/>
-      <a name="dataWidth" val="32"/>
-      <a name="contents">addr/data: 5 32
-28*0 50000000 e0000000 50000000
-</a>
-    </comp>
-    <comp lib="6" loc="(726,623)" name="Text">
-      <a name="text" val="A2"/>
-    </comp>
-    <comp lib="5" loc="(1230,390)" name="DotMatrix">
-      <a name="matrixcols" val="32"/>
-      <a name="matrixrows" val="32"/>
-    </comp>
-    <comp lib="6" loc="(726,321)" name="Text">
-      <a name="text" val="A5"/>
-    </comp>
-    <comp lib="4" loc="(880,630)" name="ROM">
-      <a name="addrWidth" val="5"/>
-      <a name="dataWidth" val="32"/>
-      <a name="contents">addr/data: 5 32
-23*0 50000000 e0000000 50000000
-</a>
-    </comp>
-    <comp lib="4" loc="(550,760)" name="Counter">
-      <a name="width" val="5"/>
-      <a name="max" val="0x1b"/>
-      <a name="ongoal" val="stay"/>
-    </comp>
-    <comp lib="4" loc="(880,530)" name="ROM">
-      <a name="addrWidth" val="5"/>
-      <a name="dataWidth" val="32"/>
-      <a name="contents">addr/data: 5 32
-17*0 50000000 e0000000 50000000
-</a>
-    </comp>
-    <comp lib="11" loc="(1040,480)" name="main"/>
-    <comp lib="9" loc="(940,30)" name="main"/>
     <comp lib="0" loc="(1510,880)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="3"/>
@@ -770,25 +602,199 @@ f7f7da f7f7f2 f7f766 f7f7b6 f7f7bf f7f7e0 f7f7fe f7f7f7
       <a name="bit22" val="2"/>
       <a name="bit23" val="2"/>
     </comp>
-    <comp lib="4" loc="(880,430)" name="ROM">
+    <comp lib="12" loc="(770,30)" name="main"/>
+    <comp lib="4" loc="(880,230)" name="ROM">
       <a name="addrWidth" val="5"/>
       <a name="dataWidth" val="32"/>
       <a name="contents">addr/data: 5 32
-12*0 50000000 e0000000 50000000
+0 50000000 e0000000 50000000
 </a>
     </comp>
+    <comp lib="11" loc="(1040,380)" name="main"/>
+    <comp lib="1" loc="(1130,540)" name="OR Gate">
+      <a name="width" val="32"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="7"/>
+    </comp>
+    <comp lib="4" loc="(530,850)" name="Counter">
+      <a name="width" val="5"/>
+      <a name="max" val="0x1f"/>
+    </comp>
+    <comp lib="0" loc="(710,80)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="3" loc="(1310,880)" name="Divider">
+      <a name="width" val="10"/>
+    </comp>
+    <comp lib="1" loc="(1140,870)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="6"/>
+    </comp>
+    <comp lib="5" loc="(1790,1070)" name="7-Segment Display"/>
+    <comp lib="4" loc="(550,760)" name="Counter">
+      <a name="width" val="5"/>
+      <a name="max" val="0x1b"/>
+      <a name="ongoal" val="stay"/>
+    </comp>
+    <comp lib="10" loc="(1000,460)" name="main"/>
+    <comp lib="0" loc="(1640,920)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="4" loc="(1240,870)" name="Counter">
+      <a name="width" val="10"/>
+      <a name="max" val="0x3ff"/>
+      <a name="ongoal" val="stay"/>
+    </comp>
+    <comp lib="6" loc="(1406,1107)" name="Text">
+      <a name="text" val="Liczba uwalonych studentow:"/>
+      <a name="font" val="SansSerif plain 20"/>
+    </comp>
+    <comp lib="0" loc="(700,30)" name="Pin">
+      <a name="width" val="16"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(930,290)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="send"/>
+    </comp>
+    <comp lib="6" loc="(726,221)" name="Text">
+      <a name="text" val="A6"/>
+    </comp>
+    <comp lib="4" loc="(880,630)" name="ROM">
+      <a name="addrWidth" val="5"/>
+      <a name="dataWidth" val="32"/>
+      <a name="contents">addr/data: 5 32
+23*0 50000000 e0000000 50000000
+</a>
+    </comp>
+    <comp lib="3" loc="(430,800)" name="Comparator">
+      <a name="width" val="7"/>
+      <a name="mode" val="unsigned"/>
+    </comp>
+    <comp lib="11" loc="(1040,780)" name="main"/>
+    <comp lib="3" loc="(680,840)" name="Adder">
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="5" loc="(1670,1070)" name="7-Segment Display"/>
     <comp lib="5" loc="(1550,1070)" name="7-Segment Display"/>
-    <comp lib="0" loc="(930,590)" name="Pin">
+    <comp lib="0" loc="(900,100)" name="Pin">
+      <a name="facing" val="north"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="send"/>
     </comp>
-    <comp lib="0" loc="(930,790)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="send"/>
+    <comp lib="0" loc="(1520,920)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
     </comp>
+    <comp lib="9" loc="(940,30)" name="main"/>
     <comp lib="0" loc="(380,760)" name="Constant">
       <a name="width" val="7"/>
       <a name="value" val="0x64"/>
+    </comp>
+    <comp lib="6" loc="(800,896)" name="Text">
+      <a name="text" val="profesor"/>
+    </comp>
+    <comp lib="3" loc="(430,750)" name="Comparator">
+      <a name="width" val="7"/>
+      <a name="mode" val="unsigned"/>
+    </comp>
+    <comp lib="5" loc="(990,40)" name="TTY">
+      <a name="rows" val="1"/>
+      <a name="cols" val="110"/>
+    </comp>
+    <comp lib="10" loc="(1000,560)" name="main"/>
+    <comp lib="0" loc="(930,690)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="send"/>
+    </comp>
+    <comp lib="1" loc="(500,790)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(726,623)" name="Text">
+      <a name="text" val="A2"/>
+    </comp>
+    <comp lib="11" loc="(1040,480)" name="main"/>
+    <comp lib="4" loc="(880,530)" name="ROM">
+      <a name="addrWidth" val="5"/>
+      <a name="dataWidth" val="32"/>
+      <a name="contents">addr/data: 5 32
+17*0 50000000 e0000000 50000000
+</a>
+    </comp>
+    <comp lib="0" loc="(380,810)" name="Constant">
+      <a name="width" val="7"/>
+      <a name="value" val="0x61"/>
+    </comp>
+    <comp lib="0" loc="(510,930)" name="Clock">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="4" loc="(620,760)" name="Register">
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="6" loc="(240,693)" name="Text">
+      <a name="text" val="keyboard"/>
+    </comp>
+    <comp lib="6" loc="(411,724)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="0" loc="(1260,910)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x2"/>
+    </comp>
+    <comp lib="5" loc="(170,720)" name="Keyboard">
+      <a name="buflen" val="1"/>
+    </comp>
+    <comp lib="6" loc="(409,833)" name="Text">
+      <a name="text" val="d"/>
+    </comp>
+    <comp lib="4" loc="(880,330)" name="ROM">
+      <a name="addrWidth" val="5"/>
+      <a name="dataWidth" val="32"/>
+      <a name="contents">addr/data: 5 32
+6*0 50000000 e0000000 50000000
+</a>
+    </comp>
+    <comp lib="5" loc="(1230,390)" name="DotMatrix">
+      <a name="matrixcols" val="32"/>
+      <a name="matrixrows" val="32"/>
+    </comp>
+    <comp lib="10" loc="(1000,260)" name="main"/>
+    <comp lib="0" loc="(660,140)" name="Clock"/>
+    <comp lib="10" loc="(1000,360)" name="main"/>
+    <comp lib="4" loc="(880,730)" name="ROM">
+      <a name="addrWidth" val="5"/>
+      <a name="dataWidth" val="32"/>
+      <a name="contents">addr/data: 5 32
+28*0 50000000 e0000000 50000000
+</a>
+    </comp>
+    <comp lib="11" loc="(1040,580)" name="main"/>
+    <comp lib="6" loc="(727,723)" name="Text">
+      <a name="text" val="A1"/>
+    </comp>
+    <comp lib="4" loc="(870,840)" name="ROM">
+      <a name="addrWidth" val="5"/>
+      <a name="dataWidth" val="32"/>
+      <a name="contents">addr/data: 5 32
+27*0 4 7 e 7 4
+</a>
+    </comp>
+    <comp lib="6" loc="(727,523)" name="Text">
+      <a name="text" val="A3"/>
+    </comp>
+    <comp lib="6" loc="(726,321)" name="Text">
+      <a name="text" val="A5"/>
+    </comp>
+    <comp lib="11" loc="(1040,680)" name="main"/>
+    <comp lib="0" loc="(930,390)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="send"/>
+    </comp>
+    <comp lib="0" loc="(180,740)" name="Power">
+      <a name="facing" val="south"/>
     </comp>
   </circuit>
 </project>
