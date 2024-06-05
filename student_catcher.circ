@@ -57,9 +57,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <path d="M63,49 Q71,59 78,49" fill="none" stroke="#808080" stroke-width="2"/>
       <rect fill="none" height="41" stroke="#000000" stroke-width="2" width="40" x="50" y="49"/>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="69" y="73">catch</text>
-      <circ-port height="8" pin="260,150" width="8" x="56" y="46"/>
+      <circ-port height="8" pin="260,150" width="8" x="66" y="46"/>
       <circ-port height="10" pin="400,360" width="10" x="65" y="85"/>
-      <circ-port height="8" pin="300,150" width="8" x="76" y="46"/>
+      <circ-port height="8" pin="300,150" width="8" x="86" y="56"/>
       <circ-anchor facing="east" height="6" width="6" x="87" y="57"/>
     </appear>
     <wire from="(440,350)" to="(440,360)"/>
@@ -103,6 +103,17 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(290,150)" to="(300,150)"/>
     <wire from="(270,150)" to="(270,210)"/>
     <wire from="(290,150)" to="(290,210)"/>
+    <comp lib="1" loc="(440,350)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="32"/>
+    </comp>
+    <comp lib="0" loc="(300,150)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="profesor"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="0" loc="(280,260)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="32"/>
@@ -113,27 +124,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="student"/>
     </comp>
-    <comp lib="1" loc="(440,350)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="32"/>
+    <comp lib="0" loc="(400,360)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="catch"/>
     </comp>
     <comp lib="1" loc="(280,240)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="width" val="32"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(400,360)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="catch"/>
-    </comp>
-    <comp lib="0" loc="(300,150)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="profesor"/>
-      <a name="labelloc" val="east"/>
     </comp>
   </circuit>
 </project>
