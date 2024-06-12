@@ -1,0 +1,3 @@
+[submodule "symbol-to-hex"]
+	path = symbol-to-hex
+	url = https://github.com/ReQ1600/symbol-to-hex.git
