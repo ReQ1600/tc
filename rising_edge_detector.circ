@@ -60,9 +60,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <appear>
-      <path d="M61,51 Q65,61 69,51" fill="none" stroke="#808080" stroke-width="2"/>
+      <path d="M66,51 Q70,61 74,51" fill="none" stroke="#808080" stroke-width="2"/>
       <rect fill="none" height="30" stroke="#000000" stroke-width="2" width="40" x="50" y="50"/>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="67" y="66">edge</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="70" y="69">edge</text>
       <circ-port height="8" pin="130,120" width="8" x="46" y="66"/>
       <circ-port height="8" pin="130,140" width="8" x="46" y="56"/>
       <circ-port height="10" pin="270,130" width="10" x="85" y="55"/>
@@ -81,21 +81,21 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="clk"/>
     </comp>
-    <comp lib="1" loc="(250,130)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-      <a name="negate0" val="true"/>
-    </comp>
-    <comp lib="4" loc="(200,120)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(130,140)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="sig"/>
-    </comp>
     <comp lib="0" loc="(270,130)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="out"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="4" loc="(200,120)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(250,130)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="negate0" val="true"/>
+    </comp>
+    <comp lib="0" loc="(130,140)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="sig"/>
     </comp>
   </circuit>
 </project>

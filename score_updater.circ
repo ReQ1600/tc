@@ -112,33 +112,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="max" val="0xffff"/>
       <a name="ongoal" val="stay"/>
     </comp>
-    <comp lib="4" loc="(550,400)" name="Counter">
-      <a name="width" val="10"/>
-      <a name="max" val="0x3ff"/>
-      <a name="ongoal" val="stay"/>
-    </comp>
-    <comp lib="0" loc="(570,350)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="its over"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(547,241)" name="Text">
-      <a name="text" val="liczy STRACONE zycia"/>
-    </comp>
-    <comp lib="0" loc="(450,400)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="collision (student)"/>
-    </comp>
     <comp lib="3" loc="(640,290)" name="Divider">
       <a name="width" val="4"/>
     </comp>
-    <comp lib="4" loc="(790,290)" name="ROM">
-      <a name="addrWidth" val="4"/>
-      <a name="contents">addr/data: 4 8
-e0 bf b6 66 f2 da 60 fc
-</a>
+    <comp lib="0" loc="(430,620)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="clk"/>
     </comp>
     <comp lib="4" loc="(790,410)" name="ROM">
       <a name="addrWidth" val="10"/>
@@ -271,28 +250,22 @@ f7fe66 f7feb6 f7febf f7fee0 f7fefe f7fef7 f7f7fc f7f760
 f7f7da f7f7f2 f7f766 f7f7b6 f7f7bf f7f7e0 f7f7fe f7f7f7
 </a>
     </comp>
-    <comp lib="0" loc="(640,700)" name="Pin">
+    <comp lib="0" loc="(570,350)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="width" val="16"/>
-      <a name="label" val="score"/>
+      <a name="label" val="its over"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(590,300)" name="Constant">
-      <a name="width" val="4"/>
-      <a name="value" val="0x2"/>
+    <comp lib="4" loc="(790,290)" name="ROM">
+      <a name="addrWidth" val="4"/>
+      <a name="contents">addr/data: 4 8
+e0 bf b6 66 f2 da 60 fc
+</a>
     </comp>
-    <comp lib="0" loc="(570,610)" name="Constant">
-      <a name="width" val="16"/>
-      <a name="value" val="0x2"/>
-    </comp>
-    <comp lib="3" loc="(620,410)" name="Divider">
+    <comp lib="4" loc="(550,400)" name="Counter">
       <a name="width" val="10"/>
-    </comp>
-    <comp lib="0" loc="(450,260)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="collision (eagle)"/>
+      <a name="max" val="0x3ff"/>
+      <a name="ongoal" val="stay"/>
     </comp>
     <comp lib="0" loc="(820,290)" name="Pin">
       <a name="facing" val="west"/>
@@ -301,25 +274,6 @@ f7f7da f7f7f2 f7f766 f7f7b6 f7f7bf f7f7e0 f7f7fe f7f7f7
       <a name="label" val="led_lives"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="3" loc="(620,600)" name="Multiplier">
-      <a name="width" val="16"/>
-    </comp>
-    <comp lib="0" loc="(820,410)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="24"/>
-      <a name="label" val="led_students"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="4" loc="(550,280)" name="Counter">
-      <a name="width" val="4"/>
-      <a name="max" val="0xf"/>
-      <a name="ongoal" val="stay"/>
-    </comp>
-    <comp lib="0" loc="(570,440)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x2"/>
-    </comp>
     <comp lib="0" loc="(820,600)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -327,9 +281,10 @@ f7f7da f7f7f2 f7f766 f7f7b6 f7f7bf f7f7e0 f7f7fe f7f7f7
       <a name="label" val="led_score"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(430,620)" name="Pin">
+    <comp lib="0" loc="(450,260)" name="Pin">
+      <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="clk"/>
+      <a name="label" val="collision (eagle)"/>
     </comp>
     <comp lib="4" loc="(790,600)" name="ROM">
       <a name="addrWidth" val="16"/>
@@ -1586,6 +1541,51 @@ f7f7e0bf f7f7e0e0 f7f7e0fe f7f7e0f7 f7f7fefc f7f7fe60 f7f7feda f7f7fef2
 f7f7fe66 f7f7feb6 f7f7febf f7f7fee0 f7f7fefe f7f7fef7 f7f7f7fc f7f7f760
 f7f7f7da f7f7f7f2 f7f7f766 f7f7f7b6 f7f7f7bf f7f7f7e0 f7f7f7fe f7f7f7f7
 </a>
+    </comp>
+    <comp lib="0" loc="(640,700)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="16"/>
+      <a name="label" val="score"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="3" loc="(620,410)" name="Divider">
+      <a name="width" val="10"/>
+    </comp>
+    <comp lib="6" loc="(547,241)" name="Text">
+      <a name="text" val="liczy STRACONE zycia"/>
+    </comp>
+    <comp lib="0" loc="(570,440)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x2"/>
+    </comp>
+    <comp lib="3" loc="(620,600)" name="Multiplier">
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="4" loc="(550,280)" name="Counter">
+      <a name="width" val="4"/>
+      <a name="max" val="0xe"/>
+      <a name="ongoal" val="stay"/>
+    </comp>
+    <comp lib="0" loc="(590,300)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x2"/>
+    </comp>
+    <comp lib="0" loc="(570,610)" name="Constant">
+      <a name="width" val="16"/>
+      <a name="value" val="0x2"/>
+    </comp>
+    <comp lib="0" loc="(820,410)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="24"/>
+      <a name="label" val="led_students"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(450,400)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="collision (student)"/>
     </comp>
   </circuit>
 </project>
